@@ -1,0 +1,25 @@
+if [ "$color_prompt" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\[\e[0;38m\][\[\e[0;32m\]\d-\t\[\e[0;38m\]]-[\[\e[0;35m\]\u\[\e[0;38m\]@\[\e[0;34m\]\h\[\e[0;38m\]]-\n[\[\e[0;37m\]\w\[\e[0;38m\]]\[\e[0;31m\]\$\[\e[0;33m\] '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
+unset color_prompt force_color_prompt
+
+
+alias VPS='ssh -p <port_num> <remote_user>@<remote/local ip> -i /Path/to/SSH/key.here'
+
+alias off='shutdown +0'
+alias rearm='shutdown -r +1'
+
+alias long='ls -lsa'
+alias slash='sudo rm -rf'
+
+alias evolve='sudo apt update && sudo apt full-upgrade && sudo apt autoremove && sudo apt autoclean'
+
+alias take='git clone'
+alias stomp='kill -9'
+
+
+alias HTBstart='sudo openvpn ./path/to/starting/point.ovpn'
+alias HTBlab='sudo openvpn ./path/to/lab.ovpn'
+
