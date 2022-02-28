@@ -1,0 +1,32 @@
+30 - Black
+31 - Red
+32 - Green
+33 - Orange
+34 - Olive
+35 - Purple
+36 - Cyan
+37 - White
+38 - Blue
+39 - Navy Blue
+
+"
+
+\[\e[0;BLUEm\]    [
+\[\e[0;GREENm\]    \d-\t
+\[\e[0;BLUEm\]    ]-[
+\[\e[0;CYANm\]    \u
+\[\e[0;BLUEm\]    @
+\[\e[0;OLIVEm\]    \h
+\[\e[0;BLUEm\]    ]-\n[
+\[\e[0;WHITEm\]    \w
+\[\e[0;BLUEm\]    ]
+\[\e[0;REDm\]    \$ 
+
+"
+
+PS1="\[\e[0;BLUEm\][\[\e[0;GREENm\]\d-\t\[\e[0;BLUEm\]]-[\[\e[0;CYANm\]\u\[\e[0;BLUEm\]@\[\e[0;OLIVEm\]\h\[\e[0;BLUEm\]]-\n[\[\e[0;WHITEm\]\w\[\e[0;BLUEm\]]\[\e[0;REDm\]\$ "
+
+PS1="\[\e[0;BLUEm\] [ \[\e[0;GREENm\] \d-\t \[\e[0;BLUEm\] ]-[ \[\e[0;CYANm\] \u \[\e[0;BLUEm\] @ \[\e[0;OLIVEm\] \h \[\e[0;BLUEm\] ]-\n[ \[\e[0;WHITEm\] \w \[\e[0;BLUEm\] ] \[\e[0;REDm\] \$ "
+
+
+PS1="\[\e[0;38m\][\[\e[0;32m\]\d-\t\[\e[0;38m\]]-[\[\e[0;36m\]\u\[\e[0;38m\]@\[\e[0;34m\]\h\[\e[0;38m\]]-\n[\[\e[0;37m\]\w\[\e[0;38m\]]\[\e[0;31m\]\$ "
